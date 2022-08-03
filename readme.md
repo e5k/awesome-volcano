@@ -15,6 +15,7 @@
 ## Table of content
 
 - [Table of content](#table-of-content)
+- [- Monitoring](#--monitoring)
 - [Codes](#codes)
   - [Hazard assessment](#hazard-assessment)
     - [Tephra dispersal and fallout](#tephra-dispersal-and-fallout)
@@ -32,6 +33,7 @@
   - [Other](#other)
 - [Web-based platforms](#web-based-platforms)
   - [Monitoring](#monitoring-1)
+- [Contribute](#contribute)
 ---
 
 ## Codes 
@@ -116,3 +118,4 @@
 
 ## Contribute
 
+Follow the [contribution guidelines](https://github.com/CERG-C/awesome-volcano/blob/main/contributing.md).

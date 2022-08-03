@@ -15,10 +15,11 @@ Feel free to contribute to this list, but please follow these guidelines:
 
 To contribute to this list, you'll first need a [GitHub account](https://github.com/join). Then:
 
-1. Access awesome-plones GitHub page. For example: https://github.com/collective/awesome-plone/
-2. Now click on the edit icon
-3. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
-4. Say why you're proposing the add-on, and then click on "Propose file change".
-5. Submit the pull request!
+1. Access the [awesome-volcano](https://github.com/CERG-C/awesome-volcano) GitHub page.
+2. Click on [readme.md](https://github.com/CERG-C/awesome-volcano/blob/main/readme.md). 
+3. Click on the edit icon, which looks like a pencil.
+4. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+5. Say why you're proposing the add-on, and then click on "Propose file change".
+6. Submit the pull request!
 
 Thanks for contributing!
