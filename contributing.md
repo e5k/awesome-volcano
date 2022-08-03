@@ -9,7 +9,7 @@ Feel free to contribute to this list, but please follow these guidelines:
 - Respect the punctuation: add a colon (**:**) after `Title` and a dot at the end of the entry.
 - Double check your spelling and grammar!
 - Adding new categories, or improving existing categories is welcome.
-- Keep entries and categories sorts alphabetically by the title.
+- Keep entries and categories sorts alphabetically by the title. The one exception to the rule are the *Miscellaneous* sections, which should be last.
 
 ## How to contribute?
 

@@ -15,22 +15,22 @@
 ## Table of content
 
 - [Table of content](#table-of-content)
-- [- Monitoring](#--monitoring)
+- [- Contribute](#--contribute)
 - [Codes](#codes)
-  - [Hazard assessment](#hazard-assessment)
-    - [Tephra dispersal and fallout](#tephra-dispersal-and-fallout)
-    - [Lava flow inundation](#lava-flow-inundation)
-    - [Lahars & PDCs inundation](#lahars--pdcs-inundation)
+  - [Deposit characterisation](#deposit-characterisation)
   - [Eruption history & analogues](#eruption-history--analogues)
   - [Exposure & impact assessment](#exposure--impact-assessment)
-  - [Deposit characterisation](#deposit-characterisation)
+  - [Hazard assessment](#hazard-assessment)
+    - [Lava flow inundation](#lava-flow-inundation)
+    - [Lahars & PDCs inundation](#lahars--pdcs-inundation)
+    - [Tephra dispersal and fallout](#tephra-dispersal-and-fallout)
   - [Miscellaneous tools](#miscellaneous-tools)
 - [Databases](#databases)
   - [Eruptive history](#eruptive-history)
   - [Eruption source parameters](#eruption-source-parameters)
   - [Impacts](#impacts)
   - [Monitoring](#monitoring)
-  - [Other](#other)
+  - [Miscellaneous](#miscellaneous)
 - [Web-based platforms](#web-based-platforms)
   - [Monitoring](#monitoring-1)
 - [Contribute](#contribute)
@@ -38,15 +38,24 @@
 
 ## Codes 
 
+### Deposit characterisation
+
+- [AshCalc](https://github.com/MatthewDaggitt/AshCalc): Calculation of the volume of tephra deposits in Python ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/2191-5040-3-7)).
+- [CareySparks86_Matlab](https://github.com/e5k/CareySparks86_Matlab) Matlab implementation of the Carey and Sparks (1986) model to estimate plume height from isopleth data ([reference](https://link.springer.com/article/10.1007/BF01046546)).
+- [Tephra2 inversion](https://github.com/geoscience-community-codes/tephra2-inversion): Tephra2 inversion method written in C with some [post-processing tools](https://github.com/e5k/Tephra2Utils) in Matlab ([reference](https://pubs.geoscienceworld.org/gsl/books/book/1732/chapter/107601115/Inversion-is-the-key-to-dispersionunderstanding)).
+- [TephraFits](https://github.com/e5k/TephraFits): Matlab function to estimate the volume of and characterise tephra deposits from field-based methods ([reference](https://link.springer.com/article/10.1186/s13617-018-0081-1)).
+- [TOTGS](https://github.com/e5k/TOTGS): Calculation of the total grain-size distribution of tephra deposits using the VORONOI method in Matlab ([reference](https://link.springer.com/article/10.1007/s00445-004-0386-2)).
+
+### Eruption history & analogues
+
+- [PyVOLCANS](https://github.com/BritishGeologicalSurvey/pyvolcans) Python library to explore similarity between volcanic systems ([reference](https://link.springer.com/article/10.1007/s00445-019-1336-3)).
+
+### Exposure & impact assessment 
+
+- [RNDS](https://github.com/vharg/RNDS/): Method to integrate road criticality into road disruption assessments ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/s13617-022-00118-x)).
+- [VolcGIS](https://github.com/vharg/VolcGIS): Python framework for exposure analyses ([reference](https://nhess.copernicus.org/articles/22/1233/2022/)).
+
 ### Hazard assessment
-
-#### Tephra dispersal and fallout
-
-- [Tephra2](https://github.com/geoscience-community-codes/tephra2): 2D model for ground tephra accumulation written in C with some [additional functions](https://github.com/e5k/Tephra2Utils) in Matlab ([reference](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003JB002896)).
-- [TephraProb](https://github.com/e5k/TephraProb): Probabilistic hazard assessment for tephra fallout written in Matlab ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/s13617-016-0050-5)).
-- [Fall3d](https://gitlab.com/fall3d-distribution): 3D atmospheric tephra dispersal ([reference](https://gmd.copernicus.org/articles/13/1431/2020/)).
-- [LagTrack](https://github.com/e5k/LagTrack): Particle tracking tool written in Matlab ([reference](https://www.sciencedirect.com/science/article/abs/pii/S0012821X21002399)).
-- [GBF](https://github.com/unigeSPC/gbf): Probabilistic hazard assessment for ballistic impacts written in Matlab ([post processing](https://github.com/e5k/GBF-Post-Processing)) ([reference](https://www.sciencedirect.com/science/article/pii/S0377027316301317)).
 
 #### Lava flow inundation 
 
@@ -61,23 +70,13 @@
 - [LaharFlow](https://www.laharflow.bristol.ac.uk): Model of lahar dynamics on evolving topography. Only as a web interface.
 - [LaharZ](https://pubs.usgs.gov/of/2014/1073/): Statistical model to estimate lahar inundation. Requires ArcGIS ([reference](https://pubs.usgs.gov/of/2014/1073/pdf/ofr2014-1073.pdf)).
 
-### Eruption history & analogues
+#### Tephra dispersal and fallout
 
-- [PyVOLCANS](https://github.com/BritishGeologicalSurvey/pyvolcans) Python library to explore similarity between volcanic systems ([reference](https://link.springer.com/article/10.1007/s00445-019-1336-3)).
-
-### Exposure & impact assessment 
-
-- [VolcGIS](https://github.com/vharg/VolcGIS): Python framework for exposure analyses ([reference](https://nhess.copernicus.org/articles/22/1233/2022/)).
-- [RNDS](https://github.com/vharg/RNDS/): Method to integrate road criticality into road disruption assessments ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/s13617-022-00118-x)).
-
-### Deposit characterisation
-
-- [Tephra2 inversion](https://github.com/geoscience-community-codes/tephra2-inversion): Tephra2 inversion method written in C with some [post-processing tools](https://github.com/e5k/Tephra2Utils) in Matlab ([reference](https://pubs.geoscienceworld.org/gsl/books/book/1732/chapter/107601115/Inversion-is-the-key-to-dispersionunderstanding)).
-- [CareySparks86_Matlab](https://github.com/e5k/CareySparks86_Matlab) Matlab implementation of the Carey and Sparks (1986) model to estimate plume height from isopleth data ([reference](https://link.springer.com/article/10.1007/BF01046546)).
-- [TephraFits](https://github.com/e5k/TephraFits): Matlab function to estimate the volume of and characterise tephra deposits from field-based methods ([reference](https://link.springer.com/article/10.1186/s13617-018-0081-1)).
-- [TOTGS](https://github.com/e5k/TOTGS): Calculation of the total grain-size distribution of tephra deposits using the VORONOI method in Matlab ([reference](https://link.springer.com/article/10.1007/s00445-004-0386-2)).
-- [AshCalc](https://github.com/MatthewDaggitt/AshCalc): Calculation of the volume of tephra deposits in Python ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/2191-5040-3-7)).
-
+- [Tephra2](https://github.com/geoscience-community-codes/tephra2): 2D model for ground tephra accumulation written in C with some [additional functions](https://github.com/e5k/Tephra2Utils) in Matlab ([reference](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003JB002896)).
+- [TephraProb](https://github.com/e5k/TephraProb): Probabilistic hazard assessment for tephra fallout written in Matlab ([reference](https://appliedvolc.biomedcentral.com/articles/10.1186/s13617-016-0050-5)).
+- [Fall3d](https://gitlab.com/fall3d-distribution): 3D atmospheric tephra dispersal ([reference](https://gmd.copernicus.org/articles/13/1431/2020/)).
+- [LagTrack](https://github.com/e5k/LagTrack): Particle tracking tool written in Matlab ([reference](https://www.sciencedirect.com/science/article/abs/pii/S0012821X21002399)).
+- [GBF](https://github.com/unigeSPC/gbf): Probabilistic hazard assessment for ballistic impacts written in Matlab ([post processing](https://github.com/e5k/GBF-Post-Processing)) ([reference](https://www.sciencedirect.com/science/article/pii/S0377027316301317)).
 
 ### Miscellaneous tools
 
@@ -105,7 +104,7 @@
 
 - [WOVOdat](https://www.wovodat.org): Database on volcanic unrest from the World Organization of Volcano Observatories ([reference](https://www.sciencedirect.com/science/article/pii/S0377027317302718)).
 
-### Other
+### Miscellaneous
 
 - [List of volcano observatories](https://wovo.iavceivolcano.org/observatories) from [WOVO](https://wovo.iavceivolcano.org). Includes an [interactive map](https://wovo.iavceivolcano.org/component/wrapper/?Itemid=110).
 
