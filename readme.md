@@ -15,7 +15,6 @@
 ## Table of content
 
 - [Table of content](#table-of-content)
-- [- Contribute](#--contribute)
 - [Codes](#codes)
   - [Deposit characterisation](#deposit-characterisation)
   - [Eruption history & analogues](#eruption-history--analogues)
@@ -34,6 +33,8 @@
 - [Web-based platforms](#web-based-platforms)
   - [Monitoring](#monitoring-1)
 - [Contribute](#contribute)
+
+
 ---
 
 ## Codes 
