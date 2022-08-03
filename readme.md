@@ -1,7 +1,7 @@
 # Awesome Volcano Resources 🌋
 
 <p align="center">
-    <em>Resources for research in volcanology from processes to impacts of eruptions.</em>
+    <em>Volcano research ranging from fundamental processes to impacts of eruptions.</em>
 </p>
 <p align="center">
 <a href="https://github.com/sindresorhus/awesome" target="_blank">
