@@ -2,13 +2,13 @@
 
 Feel free to contribute to this list, but please follow these guidelines:
 
-- Each contribution should be formatted as  `Title` - `Description` (`Reference`), where:
+- Each contribution should be formatted as  `Title - Description (Reference).`, where:
   - `Title` is name of the contribution and should contain a link to the resource.
   - `Description` is a short and simple, but descriptive insight into the resource.
   - `Reference` points to the reference paper/report/website.
 - Respect the punctuation: add a hyphen after `Title` and a dot at the end of the entry.
 - Double check your spelling and grammar!
-- Adding new categories, or improving existing categories is welcome.
+- Adding new categories, or improving existing categories is welcome. Please update the table of content accordingly or drop me an email so I can do it.
 - Keep entries and categories sorts alphabetically by the title. The one exception to the rule are the *Miscellaneous* sections, which should be last.
 
 ## How to contribute?
