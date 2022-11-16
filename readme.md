@@ -115,6 +115,7 @@
   
 ### Monitoring
 
+- [HOTVOLC](https://hotvolc.opgc.fr/www/index.php) - Web-based monitoring system for volcanic hot spots using geostationary satellite data ([reference](https://www.lyellcollection.org/doi/abs/10.1144/sp426.31)).
 - [MIROVA](https://www.mirovaweb.it) - Near real time volcanic hotspot detection system based on mid-IR MODIS observations ([reference](https://www.frontiersin.org/articles/10.3389/feart.2019.00362/full)).
 - [MOUNTS](http://www.mounts-project.com/home) - Sentinel-based automated volcano monitoring system providing data on gas emission, thermal anomaly and deformation ([reference](https://www.mdpi.com/2072-4292/11/13/1528)).
 
