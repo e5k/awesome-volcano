@@ -17,22 +17,25 @@
 - [Table of content](#table-of-content)
 - [Codes](#codes)
   - [Deposit characterisation](#deposit-characterisation)
-  - [Eruption history & analogues](#eruption-history--analogues)
-  - [Exposure & impact assessment](#exposure--impact-assessment)
+  - [Eruption history \& analogues](#eruption-history--analogues)
+  - [Exposure \& impact assessment](#exposure--impact-assessment)
   - [Hazard assessment](#hazard-assessment)
     - [Lava flow inundation](#lava-flow-inundation)
-    - [Lahars & PDCs inundation](#lahars--pdcs-inundation)
+    - [Lahars \& PDCs inundation](#lahars--pdcs-inundation)
     - [Tephra dispersal and fallout](#tephra-dispersal-and-fallout)
   - [Miscellaneous tools](#miscellaneous-tools)
 - [Databases](#databases)
   - [Eruptive history](#eruptive-history)
   - [Eruption source parameters](#eruption-source-parameters)
+  - [Hazard assessment](#hazard-assessment-1)
   - [Impacts](#impacts)
   - [Monitoring](#monitoring)
+  - [Model validation](#model-validation)
   - [Miscellaneous](#miscellaneous)
 - [Web-based platforms](#web-based-platforms)
   - [Monitoring](#monitoring-1)
 - [Contribute](#contribute)
+- [Acknowledgements](#acknowledgements)
 
 
 ---
@@ -98,6 +101,12 @@
 
 - [CCDB](http://gvb-csic.es/CCDB/) - Caldera collapse database ([reference](https://www.sciencedirect.com/science/article/pii/S0377027308001182)).
 - [IVESPA](http://www.ivespa.co.uk) - Archive of published volcano eruption information relevant for constraining eruption source parameters ([reference](https://www.sciencedirect.com/science/article/pii/S0377027321001244?via%3Dihub)).
+- [Mastin et al. (2009)](https://webapps.bgs.ac.uk/research/volcanoes/esp/search.cfc?method=viewHome) - Eruption source parameters database of Mastin et al. (2009) in a web-app format ([reference](https://www.sciencedirect.com/science/article/abs/pii/S0377027309000146?via%3Dihub)).
+
+### Hazard assessment 
+
+- [EUROVOLC](http://193.206.223.51:8088/index.php/softwarelist): EUROVOLC's list of hazard models ([reference](https://eurovolc.eu)).
+- [Wind Patterns for the World’s Volcanoes](https://data.usgs.gov/datacatalog/data/USGS:5847137ee4b0f34b016ff271): Wind patterns and rose diagrams for the World's volcanoes from the NCEP/NCAR Reanalysis 1 model ([reference](https://www.sciencebase.gov/catalog/item/5847137ee4b0f34b016ff271)).
 
 ### Impacts 
 
@@ -106,6 +115,10 @@
 ### Monitoring
 
 - [WOVOdat](https://www.wovodat.org) - Database on volcanic unrest from the World Organization of Volcano Observatories ([reference](https://www.sciencedirect.com/science/article/pii/S0377027317302718)).
+
+### Model validation
+
+- [Ash-cloud model validation](https://theghub.org/resources/2431) - Collection of data, references, and links to data on well-documented eruptions whose observations can be used to validate ash-cloud transport models ([reference](https://theghub.org/resources/2431)).
 
 ### Miscellaneous
 
@@ -122,3 +135,7 @@
 ## Contribute
 
 Follow the [contribution guidelines](https://github.com/CERG-C/awesome-volcano/blob/main/contributing.md).
+
+## Acknowledgements
+
+Sam Engwell, Julia Eychenne, Larry Mastin
