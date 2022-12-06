@@ -105,7 +105,9 @@
 
 ### Hazard assessment 
 
+- [DomeHaz](https://theghub.org/resources/1742): Global database on lava dome hazards ([reference](https://link.springer.com/article/10.1007/s00445-015-0919-x)).
 - [EUROVOLC](http://193.206.223.51:8088/index.php/softwarelist): EUROVOLC's list of hazard models ([reference](https://eurovolc.eu)).
+- [Volcanic Hazard Maps database](https://volcanichazardmaps.org): Database of hazard maps from the IAVCEI Commission on Volcanic Hazards and Risk ([reference]()).
 - [Wind Patterns for the World’s Volcanoes](https://data.usgs.gov/datacatalog/data/USGS:5847137ee4b0f34b016ff271): Wind patterns and rose diagrams for the World's volcanoes from the NCEP/NCAR Reanalysis 1 model ([reference](https://www.sciencebase.gov/catalog/item/5847137ee4b0f34b016ff271)).
 
 ### Impacts 
